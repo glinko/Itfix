@@ -250,3 +250,15 @@ ITfix should evolve from a service website into a complete technology services p
 - Service subscriptions
 - AI-assisted customer support
 - Business expansion across South Florida
+
+---
+
+## Success Criteria
+
+A visitor should:
+- Understand services within 10 seconds.
+- Understand pricing within 30 seconds.
+- Contact ITfix within one click.
+- Submit a service request in under two minutes.
+- Successfully use the website from an iPhone.
+- Trust the company enough to request service.
