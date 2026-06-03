@@ -19,8 +19,303 @@
     "copyright": "{year} ITfix. Professional IT Support in Boca Raton, South Florida."
   },
   "Home": {
-    "title": "ITfix",
-    "subtitle": "Professional IT Support in Boca Raton, South Florida",
-    "phase": "Phase 1: Foundation — Building..."
+    "hero": {
+      "headline": "Professional IT Support in Boca Raton",
+      "subheadline": "Reliable, fast, and affordable technology services for your home and business. From computer repair to smart home setup — we've got you covered.",
+      "cta": "Get Free Consultation"
+    },
+    "services": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive IT solutions tailored to your needs",
+      "learnMore": "Learn More",
+      "computerRepair": {
+        "title": "Computer Repair",
+        "description": "Fast diagnostics and repair for desktops and laptops"
+      },
+      "windowsReinstall": {
+        "title": "Windows Reinstall",
+        "description": "Clean OS installation with driver setup and data migration"
+      },
+      "virusRemoval": {
+        "title": "Virus Removal",
+        "description": "Complete malware elimination and system hardening"
+      },
+      "wifiSetup": {
+        "title": "Wi-Fi Setup",
+        "description": "Whole-home wireless coverage and optimization"
+      },
+      "networking": {
+        "title": "Networking",
+        "description": "Design, install, and manage reliable networks"
+      },
+      "securityCameras": {
+        "title": "Security Cameras",
+        "description": "Professional CCTV installation and remote monitoring"
+      },
+      "smartHome": {
+        "title": "Smart Home",
+        "description": "Connected devices, automation, and voice control setup"
+      },
+      "ethernet": {
+        "title": "Ethernet",
+        "description": "Structured cabling and wired network infrastructure"
+      },
+      "serverSetup": {
+        "title": "Server Setup",
+        "description": "NAS, file servers, and business infrastructure"
+      },
+      "itConsulting": {
+        "title": "IT Consulting",
+        "description": "Expert advice on technology strategy and planning"
+      }
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Us",
+      "localExpertise": {
+        "title": "Local Expertise",
+        "description": "Based right here in Boca Raton — we know the area and its unique needs"
+      },
+      "fastResponse": {
+        "title": "Fast Response",
+        "description": "Same-day service available for urgent issues"
+      },
+      "transparentPricing": {
+        "title": "Transparent Pricing",
+        "description": "No hidden fees — you'll know the cost before we start"
+      },
+      "bilingualSupport": {
+        "title": "Bilingual Support",
+        "description": "Full service in English and Russian — communicate in your language"
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Contact us today for a free consultation. We'll assess your needs and provide a clear plan.",
+      "phone": "Call Us",
+      "phoneNumber": "(555) 123-4567",
+      "contactButton": "Contact Us"
+    }
+  },
+  "About": {
+    "title": "About ITfix",
+    "subtitle": "Your trusted local IT partner in Boca Raton and South Florida",
+    "story": {
+      "title": "Our Story",
+      "founded": "ITfix was founded in Boca Raton, South Florida with a simple but powerful idea: technology should work for you, not against you.",
+      "mission": "Our mission is making technology accessible, reliable, and stress-free for everyone — whether you're running a business or managing a smart home.",
+      "audience": "We serve small businesses, homeowners, and anyone in South Florida who needs dependable IT support they can count on.",
+      "bilingual": "Our team is fully bilingual (English/Russian), so you can communicate in the language you're most comfortable with."
+    },
+    "differentiators": {
+      "title": "What Sets Us Apart",
+      "localPresence": {
+        "icon": "📍",
+        "title": "Local Presence",
+        "description": "We're right here in Boca Raton — not a call center overseas. Face-to-face service when you need it."
+      },
+      "fastResponse": {
+        "icon": "⚡",
+        "title": "Fast Response",
+        "description": "Same-day service available for urgent issues. We know downtime costs money and peace of mind."
+      },
+      "transparentPricing": {
+        "icon": "💰",
+        "title": "Transparent Pricing",
+        "description": "No hidden fees or surprise charges. You'll always know the cost before we start any work."
+      },
+      "ongoingSupport": {
+        "icon": "🔄",
+        "title": "Ongoing Support",
+        "description": "We don't just fix problems and leave. We build long-term relationships and provide continuous support."
+      }
+    },
+    "values": {
+      "title": "Our Values",
+      "reliability": {
+        "icon": "🤝",
+        "title": "Reliability",
+        "description": "We show up when we say we will and deliver what we promise."
+      },
+      "expertise": {
+        "icon": "🎓",
+        "title": "Expertise",
+        "description": "Deep technical knowledge across all areas of IT and home technology."
+      },
+      "customerFirst": {
+        "icon": "⭐",
+        "title": "Customer First",
+        "description": "Every decision we make starts with your needs and your experience."
+      },
+      "continuousLearning": {
+        "icon": "📚",
+        "title": "Continuous Learning",
+        "description": "Technology evolves fast — we stay ahead so you don't have to."
+      }
+    },
+    "areas": {
+      "title": "Service Areas",
+      "bocaRaton": "Boca Raton",
+      "deerfieldBeach": "Deerfield Beach",
+      "delrayBeach": "Delray Beach",
+      "pompanoBeach": "Pompano Beach",
+      "surroundingAreas": "Surrounding Areas"
+    },
+    "cta": {
+       "title": "Let's Work Together",
+       "subtitle": "Whether you need a one-time fix or ongoing IT support, we're here to help. Reach out today.",
+       "button": "Contact Us"
+     }
+  },
+  "Services": {
+    "title": "Our Services",
+    "intro": "From computer repair to smart home automation, we provide comprehensive IT solutions for homes and businesses in Boca Raton and South Florida.",
+    "services": {
+      "common": {
+        "requestService": "Request This Service"
+      },
+      "computer-repair": {
+        "name": "Computer Repair",
+        "description": "Expert diagnostics and repair for desktops and laptops.",
+        "features": [
+          "Hardware and software diagnostics",
+          "Screen, battery, and component repairs",
+          "Performance optimization",
+          "Same-day repair for most issues"
+        ]
+      },
+      "windows-reinstall": {
+        "name": "Windows Reinstall",
+        "description": "Clean Windows installation with full driver setup and data preservation.",
+        "features": [
+          "Full data backup before installation",
+          "Latest Windows with all updates",
+          "Driver installation and optimization",
+          "Essential software setup"
+        ]
+      },
+      "virus-removal": {
+        "name": "Virus Removal",
+        "description": "Complete malware detection, removal, and system hardening.",
+        "features": [
+          "Deep system scan",
+          "Removal of viruses, trojans, ransomware",
+          "System hardening",
+          "Antivirus setup and protection"
+        ]
+      },
+      "wifi-setup": {
+        "name": "Wi-Fi Setup",
+        "description": "Professional wireless network design for complete coverage.",
+        "features": [
+          "Site survey and signal analysis",
+          "Router configuration (WPA3)",
+          "Mesh network design",
+          "Guest network setup"
+        ]
+      },
+      "networking": {
+        "name": "Networking",
+        "description": "Complete LAN/WAN design, installation, and management.",
+        "features": [
+          "Network design and planning",
+          "Router and firewall configuration",
+          "Professional cable management",
+          "Security and access control"
+        ]
+      },
+      "security-cameras": {
+        "name": "Security Cameras",
+        "description": "Professional CCTV installation with remote monitoring.",
+        "features": [
+          "Camera placement planning",
+          "Indoor and outdoor installation",
+          "Remote viewing setup",
+          "Recording and storage config"
+        ]
+      },
+      "smart-home": {
+        "name": "Smart Home",
+        "description": "Full smart home integration with automation and voice control.",
+        "features": [
+          "Smart device setup",
+          "Automation routines",
+          "Voice control integration",
+          "Multi-brand compatibility"
+        ]
+      },
+      "ethernet": {
+        "name": "Ethernet",
+        "description": "Professional structured cabling and wired infrastructure.",
+        "features": [
+          "Cat5e/Cat6 cable runs",
+          "Wall jack installation",
+          "Structured cabling",
+          "Testing and certification"
+        ]
+      },
+      "server-setup": {
+        "name": "Server Setup",
+        "description": "NAS, file servers, and backup solutions.",
+        "features": [
+          "NAS configuration",
+          "File sharing and access management",
+          "Automated backup solutions",
+          "Remote access setup"
+        ]
+      },
+      "it-consulting": {
+        "name": "IT Consulting",
+        "description": "Strategic IT planning and technology audits.",
+        "features": [
+          "Infrastructure audit",
+          "Technology roadmap planning",
+          "Security assessment",
+          "Vendor selection guidance"
+        ]
+      }
+    }
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch — we're here to help with all your IT needs in Boca Raton and South Florida.",
+    "form": {
+      "title": "Send Us a Message",
+      "fields": {
+        "name": "Full Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "service": "Service Needed",
+        "servicePlaceholder": "Select a service...",
+        "message": "Your Message"
+      },
+      "errors": {
+        "required": "This field is required",
+        "email": "Please enter a valid email address"
+      },
+      "submit": "Send Message"
+    },
+    "info": {
+      "title": "Our Information",
+      "address": "Address",
+      "addressValue": "Boca Raton, FL 33432",
+      "phone": "Phone",
+      "phoneValue": "(555) 123-4567",
+      "email": "Email",
+      "emailValue": "info@itfix.com"
+    },
+    "hours": {
+      "title": "Business Hours",
+      "weekdays": "Mon - Fri: 8:00 AM - 6:00 PM",
+      "saturday": "Saturday: 9:00 AM - 2:00 PM",
+      "sunday": "Sunday: Closed"
+    },
+    "map": {
+      "title": "Find Us"
+    },
+    "submitted": {
+      "title": "Message Sent!",
+      "message": "Thank you for contacting ITfix. We'll get back to you within 24 hours.",
+      "sendAnother": "Send Another Message"
+    }
   }
 }
