@@ -176,6 +176,7 @@
       "computer-repair": {
         "name": "Computer Repair",
         "description": "Expert diagnostics and repair for desktops and laptops.",
+        "fullDescription": "Whether your computer is running slow, won't turn on, or has a broken screen, we provide fast and reliable repair services for all desktops and laptops. Our experienced technicians diagnose issues quickly and get you back up and running with minimal downtime.",
         "features": [
           "Hardware and software diagnostics",
           "Screen, battery, and component repairs",
@@ -186,6 +187,7 @@
       "windows-reinstall": {
         "name": "Windows Reinstall",
         "description": "Clean Windows installation with full driver setup and data preservation.",
+        "fullDescription": "Start fresh with a clean Windows installation. We handle the entire process — from backing up your data to installing the latest version of Windows, configuring drivers, and setting up your essential applications. Your computer will feel brand new.",
         "features": [
           "Full data backup before installation",
           "Latest Windows with all updates",
@@ -196,6 +198,7 @@
       "virus-removal": {
         "name": "Virus Removal",
         "description": "Complete malware detection, removal, and system hardening.",
+        "fullDescription": "Protect your computer from viruses, malware, ransomware, and other threats. We perform deep system scans using multiple detection engines, remove all malicious software, and harden your system to prevent future infections. Your data and privacy are our priority.",
         "features": [
           "Deep system scan",
           "Removal of viruses, trojans, ransomware",
@@ -206,6 +209,7 @@
       "wifi-setup": {
         "name": "Wi-Fi Setup",
         "description": "Professional wireless network design for complete coverage.",
+        "fullDescription": "Eliminate dead zones and enjoy fast, reliable Wi-Fi throughout your entire home or office. We analyze your space, recommend the best equipment, and configure your network for optimal performance and security.",
         "features": [
           "Site survey and signal analysis",
           "Router configuration (WPA3)",
@@ -216,6 +220,7 @@
       "networking": {
         "name": "Networking",
         "description": "Complete LAN/WAN design, installation, and management.",
+        "fullDescription": "From simple home networks to complex business infrastructure, we design, install, and manage reliable networks that keep you connected. Our solutions include wired and wireless networking, firewall configuration, and ongoing maintenance.",
         "features": [
           "Network design and planning",
           "Router and firewall configuration",
@@ -226,6 +231,7 @@
       "security-cameras": {
         "name": "Security Cameras",
         "description": "Professional CCTV installation with remote monitoring.",
+        "fullDescription": "Keep your property safe with a professional security camera system. We help you choose the right cameras, plan optimal placement, handle installation, and set up remote monitoring so you can check in from anywhere.",
         "features": [
           "Camera placement planning",
           "Indoor and outdoor installation",
@@ -236,6 +242,7 @@
       "smart-home": {
         "name": "Smart Home",
         "description": "Full smart home integration with automation and voice control.",
+        "fullDescription": "Transform your home with smart technology. We set up and integrate smart devices — lights, locks, thermostats, speakers, and more — into a unified system that you can control with your voice or smartphone.",
         "features": [
           "Smart device setup",
           "Automation routines",
@@ -246,6 +253,7 @@
       "ethernet": {
         "name": "Ethernet",
         "description": "Professional structured cabling and wired infrastructure.",
+        "fullDescription": "Get reliable, high-speed wired connections throughout your property. We install Cat5e/Cat6 cabling, set up wall jacks, and create structured cabling systems that provide the backbone for your network.",
         "features": [
           "Cat5e/Cat6 cable runs",
           "Wall jack installation",
@@ -256,6 +264,7 @@
       "server-setup": {
         "name": "Server Setup",
         "description": "NAS, file servers, and backup solutions.",
+        "fullDescription": "Take control of your data with a properly configured server or NAS system. We set up file sharing, automated backups, remote access, and user management so your data is always safe and accessible.",
         "features": [
           "NAS configuration",
           "File sharing and access management",
@@ -266,6 +275,7 @@
       "it-consulting": {
         "name": "IT Consulting",
         "description": "Strategic IT planning and technology audits.",
+        "fullDescription": "Make informed technology decisions with expert guidance. We assess your current IT infrastructure, identify areas for improvement, and create a clear roadmap to help you get the most out of your technology investment.",
         "features": [
           "Infrastructure audit",
           "Technology roadmap planning",
