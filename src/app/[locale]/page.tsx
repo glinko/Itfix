@@ -1,39 +1,37 @@
-'use client';
+import type { Metadata } from 'next';
+import HomeClient from './home-client';
 
-import { useTranslations } from 'next-intl';
-import HeroSection from '@/components/HeroSection';
-import ServicesSection from '@/components/ServicesSection';
-import WhyChooseUsSection from '@/components/WhyChooseUsSection';
-import CtaSection from '@/components/CtaSection';
-
-const services = [
-  { key: 'computerRepair', icon: '🖥️' },
-  { key: 'windowsReinstall', icon: '🪟' },
-  { key: 'virusRemoval', icon: '🛡️' },
-  { key: 'wifiSetup', icon: '📶' },
-  { key: 'networking', icon: '🌐' },
-  { key: 'securityCameras', icon: '📹' },
-  { key: 'smartHome', icon: '🏠' },
-  { key: 'ethernet', icon: '🔌' },
-  { key: 'serverSetup', icon: '🖧' },
-  { key: 'itConsulting', icon: '💡' },
-];
-
-const whyItems = [
-  { key: 'localExpertise', icon: '📍' },
-  { key: 'fastResponse', icon: '⚡' },
-  { key: 'transparentPricing', icon: '💰' },
-  { key: 'bilingualSupport', icon: '🗣️' },
-];
+export const metadata: Metadata = {
+  title: 'Home - ITfix Professional IT Support',
+  description:
+    'Professional IT support in Boca Raton, South Florida. Computer repair, networking, smart home setup, and more. Fast, reliable, and affordable.',
+  openGraph: {
+    title: 'ITfix - Professional IT Support in Boca Raton',
+    description:
+      'Professional IT support in Boca Raton, South Florida. Computer repair, networking, smart home setup, and more.',
+    url: 'https://itfix.com',
+    type: 'website',
+    images: [
+      {
+        url: 'https://itfix.com/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'ITfix - Professional IT Support',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ITfix - Professional IT Support in Boca Raton',
+    description:
+      'Professional IT support in Boca Raton, South Florida. Computer repair, networking, smart home setup, and more.',
+    images: ['https://itfix.com/og-image.png'],
+  },
+  alternates: {
+    canonical: 'https://itfix.com',
+  },
+};
 
 export default function Home() {
-  const t = useTranslations('Home');
-  return (
-    <>
-      <HeroSection t={t} />
-      <ServicesSection t={t} services={services} />
-      <WhyChooseUsSection t={t} items={whyItems} />
-      <CtaSection t={t} />
-    </>
-  );
+  return <HomeClient />;
 }
