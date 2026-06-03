@@ -290,9 +290,11 @@
       },
       "errors": {
         "required": "This field is required",
-        "email": "Please enter a valid email address"
+        "email": "Please enter a valid email address",
+        "submitFailed": "Failed to send your message. Please try again later."
       },
-      "submit": "Send Message"
+      "submit": "Send Message",
+      "sending": "Sending..."
     },
     "info": {
       "title": "Our Information",

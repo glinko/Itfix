@@ -28,6 +28,8 @@ export default function ContactPage() {
   });
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [submitted, setSubmitted] = useState(false);
+  const [isSending, setIsSending] = useState(false);
+  const [submitError, setSubmitError] = useState('');
 
   const validate = () => {
     const newErrors: Record<string, string> = {};
@@ -42,11 +44,33 @@ export default function ContactPage() {
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!validate()) return;
-    console.log('Contact form submitted:', formData);
-    setSubmitted(true);
+
+    setIsSending(true);
+    setSubmitError('');
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await res.json();
+
+      if (!data.success) {
+        setSubmitError(data.error || t('form.errors.submitFailed'));
+        return;
+      }
+
+      setSubmitted(true);
+    } catch {
+      setSubmitError(t('form.errors.submitFailed'));
+    } finally {
+      setIsSending(false);
+    }
   };
 
   const handleChange = (field: string, value: string) => {
@@ -163,10 +187,14 @@ export default function ContactPage() {
 
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors"
+              disabled={isSending}
+              className="w-full bg-blue-600 text-white py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              {t('form.submit')}
+              {isSending ? t('form.sending') : t('form.submit')}
             </button>
+            {submitError && (
+              <p className="text-red-500 text-sm text-center mt-2">{submitError}</p>
+            )}
           </form>
         </div>
 
