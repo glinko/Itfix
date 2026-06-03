@@ -1,0 +1,26 @@
+{
+  "Meta": {
+    "title": "ITfix - Professional IT Support in Boca Raton, South Florida",
+    "description": "Expert IT support, network solutions, and technology services in Boca Raton and South Florida. Fast, reliable, and professional."
+  },
+  "Header": {
+    "logo": "ITfix",
+    "nav": {
+      "services": "Services",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "lang": {
+      "en": "EN",
+      "ru": "RU"
+    }
+  },
+  "Footer": {
+    "copyright": "{year} ITfix. Professional IT Support in Boca Raton, South Florida."
+  },
+  "Home": {
+    "title": "ITfix",
+    "subtitle": "Professional IT Support in Boca Raton, South Florida",
+    "phase": "Phase 1: Foundation — Building..."
+  }
+}
