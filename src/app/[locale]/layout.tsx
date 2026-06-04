@@ -7,6 +7,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import StructuredData from '@/components/StructuredData';
 import ErrorBoundary from '@/components/ErrorBoundary';
+import Plausible from '@/components/Plausible';
 
 export const metadata: Metadata = {
   title: {
@@ -147,6 +148,7 @@ export default async function RootLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages}>
+          <Plausible />
           <ErrorBoundary>
             <StructuredData data={localBusinessSchema} />
             <Header />
