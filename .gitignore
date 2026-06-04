@@ -40,3 +40,9 @@ next-env.d.ts
 .vscode
 .idea
 test-results/
+
+# environment files
+.env.production
+
+# QA / Lighthouse reports (generated, not tracked)
+reports/
