@@ -36,3 +36,22 @@ jobs:
 
       - name: Docker build
         run: docker build -t itfix .
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: [test, docker]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    environment:
+      name: production
+      url: https://itfix.rootnode.cv
+    steps:
+      - name: Deploy to rndocker
+        uses: appleboy/ssh-action@v1.2.0
+        with:
+          host: 192.168.88.14
+          username: alex
+          key: ${{ secrets.RNDOCKER_SSH_KEY }}
+          port: 22
+          script_stop: true
+          script: |
+            bash /home/alex/projects/itfix/scripts/deploy.sh
