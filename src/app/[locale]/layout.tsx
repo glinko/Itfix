@@ -6,6 +6,7 @@ import { routing } from '@/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import StructuredData from '@/components/StructuredData';
+import ErrorBoundary from '@/components/ErrorBoundary';
 
 export const metadata: Metadata = {
   title: {
@@ -146,10 +147,12 @@ export default async function RootLayout({
     <html lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages}>
-          <StructuredData data={localBusinessSchema} />
-          <Header />
-          <main>{children}</main>
-          <Footer />
+          <ErrorBoundary>
+            <StructuredData data={localBusinessSchema} />
+            <Header />
+            <main>{children}</main>
+            <Footer />
+          </ErrorBoundary>
         </NextIntlClientProvider>
       </body>
     </html>

@@ -168,122 +168,147 @@
   },
   "Services": {
     "title": "Our Services",
-    "intro": "From computer repair to smart home automation, we provide comprehensive IT solutions for homes and businesses in Boca Raton and South Florida.",
+    "intro": "From computer repair to smart home automation, we provide comprehensive IT solutions for homes and businesses in Boca Raton, Fort Lauderdale, and throughout South Florida. Every service includes a free consultation and transparent pricing.",
     "services": {
       "common": {
         "requestService": "Request This Service"
       },
       "computer-repair": {
         "name": "Computer Repair",
-        "description": "Expert diagnostics and repair for desktops and laptops.",
-        "fullDescription": "Whether your computer is running slow, won't turn on, or has a broken screen, we provide fast and reliable repair services for all desktops and laptops. Our experienced technicians diagnose issues quickly and get you back up and running with minimal downtime.",
+        "description": "Expert diagnostics and repair for desktops and laptops in South Florida. Fast turnaround, transparent pricing.",
+        "fullDescription": "Is your computer running slow, freezing constantly, or refusing to boot up? At ITfix, we provide professional computer repair services for all desktops and laptops in Boca Raton and South Florida. Our experienced technicians perform thorough hardware and software diagnostics to pinpoint the exact issue — whether it's a failing hard drive, overheating CPU, broken screen, or corrupted operating system. We work with all major brands including Dell, HP, Lenovo, Apple, ASUS, and more.\n\nOur repair process is straightforward and transparent. We diagnose the problem, provide you with a clear estimate, and begin work only after your approval. Most repairs are completed the same day, so you're not without your computer for long. We also offer performance tuning and upgrades — SSD installations, RAM upgrades, and thermal repasting — to breathe new life into aging machines.\n\nWhether you're a homeowner in Boca Raton, a small business owner in Deerfield Beach, or a professional working from home in Palm Beach County, our computer repair service is designed to get you back online quickly and affordably. We serve residential and commercial clients throughout South Florida with the same level of care and expertise.",
         "features": [
-          "Hardware and software diagnostics",
-          "Screen, battery, and component repairs",
-          "Performance optimization",
-          "Same-day repair for most issues"
+          "Comprehensive hardware and software diagnostics for all PC and Mac models",
+          "Screen, battery, keyboard, and internal component repair and replacement",
+          "SSD upgrades, RAM expansion, and performance optimization to speed up slow systems",
+          "Same-day repair for most common issues — minimal downtime guaranteed",
+          "Transparent pricing with written estimates before any work begins",
+          "On-site and in-shop repair options available throughout South Florida"
         ]
       },
       "windows-reinstall": {
         "name": "Windows Reinstall",
-        "description": "Clean Windows installation with full driver setup and data preservation.",
-        "fullDescription": "Start fresh with a clean Windows installation. We handle the entire process — from backing up your data to installing the latest version of Windows, configuring drivers, and setting up your essential applications. Your computer will feel brand new.",
+        "description": "Clean Windows installation with full data backup, driver setup, and software restoration.",
+        "fullDescription": "A clean Windows installation is one of the most effective ways to resolve persistent software issues, remove stubborn malware, or simply give your computer a fresh start. At ITfix, we handle the entire Windows reinstall process professionally — from data backup to final configuration — so you can sit back and relax.\n\nBefore we begin, we perform a complete backup of all your important files, photos, documents, and settings. Then we install the latest version of Windows (10 or 11) with all current updates, install the correct drivers for your specific hardware, and restore your essential applications and data. We also optimize system settings for peak performance and configure Windows Defender or your preferred antivirus for ongoing protection.\n\nThis service is ideal for computers that have been running for years without a fresh install, machines affected by malware that can't be fully cleaned, or new computers that need proper setup. We serve clients throughout Boca Raton, Fort Lauderdale, and all of South Florida, and we can work on-site at your home or business.",
         "features": [
-          "Full data backup before installation",
-          "Latest Windows with all updates",
-          "Driver installation and optimization",
-          "Essential software setup"
+          "Complete data backup and verification before any changes are made",
+          "Fresh installation of Windows 10 or 11 with all latest security updates",
+          "Hardware-specific driver installation and system optimization for peak performance",
+          "Restoration of essential applications, browser profiles, and user settings",
+          "Antivirus configuration and security hardening after installation",
+          "Post-installation walkthrough so you understand your refreshed system"
         ]
       },
       "virus-removal": {
         "name": "Virus Removal",
-        "description": "Complete malware detection, removal, and system hardening.",
-        "fullDescription": "Protect your computer from viruses, malware, ransomware, and other threats. We perform deep system scans using multiple detection engines, remove all malicious software, and harden your system to prevent future infections. Your data and privacy are our priority.",
+        "description": "Complete malware detection, removal, and system hardening to protect your computer.",
+        "fullDescription": "Viruses, malware, ransomware, and spyware can compromise your personal data, slow down your computer, and even cost you money through unauthorized charges. At ITfix, we offer thorough virus removal and malware cleanup services for residents and businesses in Boca Raton and South Florida. Our multi-layered approach ensures that every threat is identified, removed, and prevented from returning.\n\nWe use professional-grade security tools and multiple detection engines to perform deep system scans that go far beyond what consumer antivirus software can do. Our technicians identify and eliminate viruses, trojans, ransomware, adware, keyloggers, and rootkits. After removal, we harden your system by closing security vulnerabilities, configuring firewalls, and setting up robust ongoing protection.\n\nDon't wait until malware causes serious damage. If you're noticing unusual pop-ups, slow performance, unknown programs, or suspicious browser behavior, contact ITfix immediately. We serve the entire South Florida area and can often provide same-day virus removal service.",
         "features": [
-          "Deep system scan",
-          "Removal of viruses, trojans, ransomware",
-          "System hardening",
-          "Antivirus setup and protection"
+          "Deep multi-engine system scan to detect all types of malware and hidden threats",
+          "Complete removal of viruses, trojans, ransomware, spyware, adware, and rootkits",
+          "System hardening including firewall configuration and vulnerability patching",
+          "Professional antivirus installation and ongoing protection setup",
+          "Data recovery for files encrypted or damaged by malware",
+          "Security education — we teach you how to avoid future infections"
         ]
       },
       "wifi-setup": {
         "name": "Wi-Fi Setup",
-        "description": "Professional wireless network design for complete coverage.",
-        "fullDescription": "Eliminate dead zones and enjoy fast, reliable Wi-Fi throughout your entire home or office. We analyze your space, recommend the best equipment, and configure your network for optimal performance and security.",
+        "description": "Professional wireless network design and optimization for complete home or office coverage.",
+        "fullDescription": "Struggling with dead zones, slow speeds, or unreliable Wi-Fi in your South Florida home or office? ITfix provides professional Wi-Fi setup and optimization services in Boca Raton, Fort Lauderdale, and throughout Palm Beach County. We analyze your space, recommend the right equipment, and configure your network so every room gets strong, fast, and secure wireless coverage.\n\nOur Wi-Fi setup process starts with a thorough site survey. We assess your property layout, identify sources of interference, and determine the best router placement or mesh network design for your specific environment. Whether you need a single high-performance router for a condo or a multi-node mesh system for a large home, we'll design and install a solution that delivers consistent coverage everywhere.\n\nWe also configure advanced security settings (WPA3 encryption), set up separate guest networks, prioritize bandwidth for critical devices, and help you manage connected devices. Our goal is a Wi-Fi network that's fast, reliable, and secure — so you can stream, work, and game without interruption.",
         "features": [
-          "Site survey and signal analysis",
-          "Router configuration (WPA3)",
-          "Mesh network design",
-          "Guest network setup"
+          "Professional site survey and wireless signal analysis for your specific property",
+          "Router selection and WPA3 security configuration for maximum protection",
+          "Mesh network design and installation for whole-home or whole-office coverage",
+          "Guest network setup, bandwidth management, and device prioritization",
+          "Troubleshooting and optimization of existing Wi-Fi networks",
+          "Ongoing support and adjustments as your connected devices grow"
         ]
       },
       "networking": {
         "name": "Networking",
-        "description": "Complete LAN/WAN design, installation, and management.",
-        "fullDescription": "From simple home networks to complex business infrastructure, we design, install, and manage reliable networks that keep you connected. Our solutions include wired and wireless networking, firewall configuration, and ongoing maintenance.",
+        "description": "Complete network design, installation, and management for homes and businesses in South Florida.",
+        "fullDescription": "A reliable network is the backbone of modern homes and businesses. At ITfix, we provide comprehensive networking services for clients in Boca Raton, Fort Lauderdale, Deerfield Beach, and throughout South Florida. Whether you need a simple home network, a multi-room smart home infrastructure, or a complete business LAN/WAN setup, our experienced technicians deliver solutions that are fast, secure, and scalable.\n\nOur networking services cover the full spectrum: network design and planning, router and switch configuration, VLAN segmentation, firewall setup, wireless access point deployment, and ongoing maintenance and monitoring. We work with enterprise-grade equipment from leading brands to ensure your network can handle today's demands and grow with your needs tomorrow.\n\nFor small businesses, we design networks that support remote work, cloud services, VoIP phone systems, and secure file sharing. For homeowners, we create networks that seamlessly connect smart home devices, streaming equipment, gaming consoles, and work-from-home setups. Every project includes professional cable management and thorough testing.",
         "features": [
-          "Network design and planning",
-          "Router and firewall configuration",
-          "Professional cable management",
-          "Security and access control"
+          "Custom network design and topology planning for homes and businesses",
+          "Router, switch, and firewall configuration with enterprise-grade equipment",
+          "VLAN segmentation, access control, and advanced security policies",
+          "Professional cable management and structured wiring for clean installations",
+          "Wireless access point deployment and seamless roaming configuration",
+          "Ongoing network monitoring, maintenance, and troubleshooting support"
         ]
       },
       "security-cameras": {
         "name": "Security Cameras",
-        "description": "Professional CCTV installation with remote monitoring.",
-        "fullDescription": "Keep your property safe with a professional security camera system. We help you choose the right cameras, plan optimal placement, handle installation, and set up remote monitoring so you can check in from anywhere.",
+        "description": "Professional CCTV installation with remote monitoring for South Florida homes and businesses.",
+        "fullDescription": "Protect your property with a professional security camera system installed by ITfix. We design, install, and configure complete CCTV solutions for homes and businesses in Boca Raton, Fort Lauderdale, and throughout South Florida. From a simple doorbell camera to a multi-camera surveillance system with night vision and motion detection, we tailor every installation to your specific security needs and budget.\n\nOur security camera services include a thorough property assessment to determine optimal camera placement, professional installation of indoor and outdoor cameras, configuration of recording and storage (local NVR or cloud-based), and setup of remote viewing on your smartphone or computer. We work with top brands including Ring, Arlo, Reolink, Hikvision, and Dahua, and we can integrate cameras with existing smart home or security systems.\n\nWhether you want to monitor your front door, keep an eye on your business after hours, or have complete property coverage, ITfix delivers a reliable, easy-to-use security camera system that gives you peace of mind 24/7.",
         "features": [
-          "Camera placement planning",
-          "Indoor and outdoor installation",
-          "Remote viewing setup",
-          "Recording and storage config"
+          "Professional property assessment and strategic camera placement planning",
+          "Indoor and outdoor camera installation with weatherproof mounting",
+          "Remote live viewing and playback on smartphones, tablets, and computers",
+          "Recording and storage configuration (local NVR, cloud storage, or hybrid setups)",
+          "Motion detection, night vision, and two-way audio setup",
+          "Integration with smart home systems and existing security infrastructure"
         ]
       },
       "smart-home": {
         "name": "Smart Home",
-        "description": "Full smart home integration with automation and voice control.",
-        "fullDescription": "Transform your home with smart technology. We set up and integrate smart devices — lights, locks, thermostats, speakers, and more — into a unified system that you can control with your voice or smartphone.",
+        "description": "Complete smart home setup, automation, and voice control integration in South Florida.",
+        "fullDescription": "Transform your home into a truly smart, connected space with ITfix's smart home installation and integration services. We help residents in Boca Raton, Fort Lauderdale, and South Florida set up and unify smart devices — lighting, locks, thermostats, speakers, blinds, sensors, and more — into a single, easy-to-manage system controlled by your voice or smartphone.\n\nOur smart home service goes beyond simple device setup. We design automation routines that make your daily life more convenient and energy-efficient: lights that adjust with the sunset, thermostats that learn your schedule, door locks that unlock when you arrive, and security sensors that alert you to unusual activity. We work with all major platforms including Alexa, Google Home, Apple HomeKit, Samsung SmartThings, and Hubitat.\n\nWhether you're starting from scratch or integrating devices you already own, ITfix ensures everything works together seamlessly. We handle the technical complexity so you can enjoy a smarter, more comfortable home without the frustration.",
         "features": [
-          "Smart device setup",
-          "Automation routines",
-          "Voice control integration",
-          "Multi-brand compatibility"
+          "Smart device setup and configuration (lighting, locks, thermostats, sensors, cameras)",
+          "Custom automation routines and scheduling for convenience and energy savings",
+          "Voice control integration with Alexa, Google Home, Apple HomeKit, and more",
+          "Multi-brand device compatibility and unified hub configuration",
+          "Network optimization for reliable smart device connectivity",
+          "Personalized training so you and your family can use your smart home with confidence"
         ]
       },
       "ethernet": {
         "name": "Ethernet",
-        "description": "Professional structured cabling and wired infrastructure.",
-        "fullDescription": "Get reliable, high-speed wired connections throughout your property. We install Cat5e/Cat6 cabling, set up wall jacks, and create structured cabling systems that provide the backbone for your network.",
+        "description": "Professional structured cabling and wired network infrastructure for homes and offices.",
+        "fullDescription": "For the most reliable, high-speed connections, nothing beats wired Ethernet. ITfix provides professional Ethernet cabling and structured wiring services for homes and businesses in Boca Raton, Fort Lauderdale, and throughout South Florida. We install Cat5e, Cat6, and Cat6a cabling that delivers gigabit-speed performance and forms the solid foundation for any network.\n\nOur Ethernet installation service includes running new cable lines through walls, ceilings, and conduits; installing wall jacks in each room; terminating cables at a central patch panel or network closet; and testing every connection to ensure it meets industry standards. Whether you're building a new home, renovating, or upgrading an existing network, we deliver clean, professional installations that are built to last.\n\nWired Ethernet connections are essential for gaming PCs, home offices, security camera systems, access points, and any device that demands maximum speed and minimum latency. We also offer fiber optic installations for future-proofing your property's connectivity.",
         "features": [
-          "Cat5e/Cat6 cable runs",
-          "Wall jack installation",
-          "Structured cabling",
-          "Testing and certification"
+          "Cat5e, Cat6, and Cat6a cable installation for gigabit and multi-gigabit speeds",
+          "Wall jack installation and patch panel termination in network closets",
+          "Complete structured cabling systems designed for scalability and longevity",
+          "Professional cable testing and certification to TIA/EIA industry standards",
+          "In-wall, in-ceiling, and conduit routing with clean, professional finishes",
+          "Fiber optic installation options for future-proof, ultra-high-speed connectivity"
         ]
       },
       "server-setup": {
         "name": "Server Setup",
-        "description": "NAS, file servers, and backup solutions.",
-        "fullDescription": "Take control of your data with a properly configured server or NAS system. We set up file sharing, automated backups, remote access, and user management so your data is always safe and accessible.",
+        "description": "NAS, file servers, and automated backup solutions for homes and businesses in South Florida.",
+        "fullDescription": "Take full control of your data with a professionally configured server or NAS (Network Attached Storage) system. At ITfix, we design and deploy server solutions for homeowners and small businesses in Boca Raton, Fort Lauderdale, and throughout South Florida. Whether you need centralized file storage, automated backups, media streaming, or a complete business server, we'll build and configure a system tailored to your needs.\n\nOur server setup services include hardware selection and assembly, operating system installation (Windows Server, Linux, or NAS OS like Synology DSM or QNAP QTS), RAID configuration for data redundancy, user account and permission management, automated backup scheduling, and secure remote access setup. We also configure file sharing protocols (SMB, NFS, FTP), media servers (Plex, Jellyfin), and email or web servers for businesses.\n\nWith a properly configured server, your data is always safe, organized, and accessible from anywhere. ITfix ensures your server is secure, reliable, and easy to manage — and we provide ongoing support to keep it running smoothly.",
         "features": [
-          "NAS configuration",
-          "File sharing and access management",
-          "Automated backup solutions",
-          "Remote access setup"
+          "NAS selection, assembly, and configuration (Synology, QNAP, or custom builds)",
+          "RAID setup for data redundancy and automatic fault tolerance",
+          "File sharing, user management, and granular access permissions",
+          "Automated backup scheduling with off-site and cloud backup options",
+          "Secure remote access configuration for working from anywhere",
+          "Ongoing server maintenance, monitoring, and troubleshooting support"
         ]
       },
       "it-consulting": {
         "name": "IT Consulting",
-        "description": "Strategic IT planning and technology audits.",
-        "fullDescription": "Make informed technology decisions with expert guidance. We assess your current IT infrastructure, identify areas for improvement, and create a clear roadmap to help you get the most out of your technology investment.",
+        "description": "Expert IT strategy, technology audits, and infrastructure planning for South Florida businesses.",
+        "fullDescription": "Make confident, informed technology decisions with ITfix's professional IT consulting services. We help small and medium-sized businesses in Boca Raton, Fort Lauderdale, and throughout South Florida evaluate their current IT infrastructure, identify vulnerabilities and inefficiencies, and develop a clear, actionable technology roadmap that aligns with their business goals and budget.\n\nOur IT consulting engagements include comprehensive technology audits, security assessments, cloud migration planning, hardware and software procurement guidance, vendor evaluation, and disaster recovery planning. We take the time to understand your business operations, growth plans, and technical challenges — then we deliver practical recommendations you can implement immediately or phase in over time.\n\nWhether you're a startup building your first IT infrastructure, a growing business that needs to scale its technology, or an established company looking to modernize, ITfix provides the expert guidance you need. We speak your language, respect your budget, and focus on solutions that deliver real value.",
         "features": [
-          "Infrastructure audit",
-          "Technology roadmap planning",
-          "Security assessment",
-          "Vendor selection guidance"
+          "Comprehensive IT infrastructure audit and technology assessment",
+          "Custom technology roadmap aligned with your business goals and budget",
+          "Security assessment, compliance review, and risk mitigation strategies",
+          "Cloud migration planning and hybrid infrastructure design",
+          "Vendor evaluation, procurement guidance, and cost optimization analysis",
+          "Ongoing advisory support and quarterly technology reviews"
         ]
       }
     }
+  },
+  "ErrorBoundary": {
+    "title": "Something Went Wrong",
+    "description": "An unexpected error occurred. Please try reloading the page. If the problem persists, contact us for assistance.",
+    "reload": "Reload Page"
   },
   "Contact": {
     "title": "Contact Us",
