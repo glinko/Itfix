@@ -20,10 +20,11 @@ function escapeMarkdownV2(text: string): string {
   // Escape all MarkdownV2 special characters: _ * [ ] ~ ` > # ( ) ! : - + = | { } .
   // Using a simple string split + join trick to avoid regex character class range issues
   // Escape backslash first, then all other MarkdownV2 special characters
-  let result = text.replace(/\\/g, '\\\\');
+  // Use replaceAll instead of RegExp to avoid regex metacharacter issues
+  let result = text.replaceAll('\\', '\\\\');
   const specials = ['_', '*', '[', ']', '~', '`', '>', '#', '(', ')', '!', ':', '-', '+', '=', '|', '{', '}', '.'];
   for (const ch of specials) {
-    result = result.replace(new RegExp(ch, 'g'), `\\${ch}`);
+    result = result.replaceAll(ch, `\\${ch}`);
   }
   return result;
 }
