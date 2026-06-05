@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { supabase } from '@/lib/supabase';
+import { sendLeadNotification } from '@/lib/telegram';
 
 // In-memory rate limiter: max 5 requests per IP per 60 seconds
 const rateLimitMap = new Map<string, number[]>();
@@ -73,38 +74,51 @@ export async function POST(req: NextRequest) {
     );
   }
 
-  // Try inserting into Supabase; gracefully degrade if env vars are missing
-  if (supabase) {
-    try {
-      const { error } = await supabase.from('contact_submissions').insert({
-        name: name.trim(),
-        email: email.trim(),
-        phone: phone?.trim() || null,
-        service: service?.trim() || null,
-        message: message.trim(),
-        source: 'Website',
-        status: 'New Lead',
-      });
+  // Build lead data for both Supabase and Telegram
+  const leadData = {
+    name: name.trim(),
+    email: email.trim(),
+    phone: phone?.trim() || null,
+    service: service?.trim() || null,
+    message: message.trim(),
+  };
+  const timestamp = new Date().toISOString();
 
-      if (error) {
-        console.error('Supabase insert error:', error);
-        return NextResponse.json(
-          { success: false, error: 'Failed to save your message. Please try again.' },
-          { status: 500 },
-        );
-      }
-    } catch (err) {
-      console.error('Supabase connection error:', err);
-      return NextResponse.json(
-        { success: false, error: 'Failed to save your message. Please try again.' },
-        { status: 500 },
-      );
-    }
-  } else {
-    console.warn(
-      'Supabase not configured — contact submission logged to console only.',
-      { name, email, phone, service, message },
+  // Run Supabase insert and Telegram notification in parallel
+  const supabaseInsert = supabase
+    ? (async () => {
+        const { error } = await supabase.from('contact_submissions').insert({
+          ...leadData,
+          source: 'Website',
+          status: 'New Lead',
+        });
+        if (error) {
+          console.error('Supabase insert error:', error);
+          throw new Error('Supabase insert failed');
+        }
+      })()
+    : Promise.resolve();
+
+  const telegramNotify = sendLeadNotification({
+    ...leadData,
+    timestamp,
+  });
+
+  const results = await Promise.allSettled([supabaseInsert, telegramNotify]);
+
+  // Check if Supabase failed (it's the primary store)
+  const supabaseResult = results[0];
+  if (supabaseResult.status === 'rejected') {
+    return NextResponse.json(
+      { success: false, error: 'Failed to save your message. Please try again.' },
+      { status: 500 },
     );
+  }
+
+  // Log Telegram failure for debugging but don't block the response
+  const telegramResult = results[1];
+  if (telegramResult.status === 'rejected') {
+    console.error('Telegram notification failed:', telegramResult.reason);
   }
 
   return NextResponse.json({ success: true });
