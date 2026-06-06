@@ -4,16 +4,16 @@ import { useTranslations } from 'next-intl';
 import ServicesSection from '@/components/ServicesSection';
 
 const services = [
-  { key: 'computerRepair', icon: '🖥️' },
-  { key: 'windowsReinstall', icon: '🪟' },
-  { key: 'virusRemoval', icon: '🛡️' },
-  { key: 'wifiSetup', icon: '📶' },
-  { key: 'networking', icon: '🌐' },
-  { key: 'securityCameras', icon: '📹' },
-  { key: 'smartHome', icon: '🏠' },
-  { key: 'ethernet', icon: '🔌' },
-  { key: 'serverSetup', icon: '🖧' },
-  { key: 'itConsulting', icon: '💡' },
+  { key: 'computerRepair', icon: '/icons/computer-repair.png' },
+  { key: 'windowsReinstall', icon: '/icons/windows-reinstall.png' },
+  { key: 'virusRemoval', icon: '/icons/virus-removal.png' },
+  { key: 'wifiSetup', icon: '/icons/wifi-setup.png' },
+  { key: 'networking', icon: '/icons/networking.png' },
+  { key: 'securityCameras', icon: '/icons/security-cameras.png' },
+  { key: 'smartHome', icon: '/icons/smart-home.png' },
+  { key: 'ethernet', icon: '/icons/ethernet.png' },
+  { key: 'serverSetup', icon: '/icons/server-setup.png' },
+  { key: 'itConsulting', icon: '/icons/it-consulting.png' },
 ];
 
 export default function ServicesClient() {

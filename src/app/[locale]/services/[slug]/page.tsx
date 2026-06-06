@@ -62,7 +62,9 @@ export default async function ServicePage({
       {/* Hero */}
       <section className="bg-gradient-to-br from-blue-900 to-blue-700 text-white py-16">
         <div className="max-w-6xl mx-auto px-4">
-          <div className="text-5xl mb-4">{service.icon}</div>
+          <div className="flex justify-center mb-4">
+            <img src={service.icon} alt={title} className="w-16 h-16 object-contain" />
+          </div>
           <h1 className="text-4xl font-bold mb-4">{title}</h1>
           <p className="text-xl text-blue-100 max-w-2xl">{description}</p>
         </div>

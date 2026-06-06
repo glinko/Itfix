@@ -20,9 +20,12 @@ export default function WhyChooseUsSection({ t, items }: { t: (key: string) => s
 }
 
 function WhyItemCard({ itemKey, icon, t }: { itemKey: string; icon: string; t: (key: string) => string }) {
+  const title = t(`whyChooseUs.${itemKey}.title`);
   return (
     <div className="text-center">
-      <div className="text-5xl mb-4">{icon}</div>
+      <div className="flex justify-center mb-4">
+        <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+      </div>
       <h3 className="text-xl font-semibold text-gray-900 mb-2">
         {t(`whyChooseUs.${itemKey}.title`)}
       </h3>

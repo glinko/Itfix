@@ -31,9 +31,12 @@ export default function ServicesSection({ t, services }: { t: (key: string) => s
 }
 
 function ServiceCard({ serviceKey, icon, t }: { serviceKey: string; icon: string; t: (key: string) => string }) {
+  const title = t(`services.${serviceKey}.title`);
   return (
     <div className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-shadow duration-200 border border-gray-100">
-      <div className="text-4xl mb-4">{icon}</div>
+      <div className="flex justify-center mb-4">
+        <img src={icon} alt={title} className="w-12 h-12 object-contain" />
+      </div>
       <h3 className="text-xl font-semibold text-gray-900 mb-2">
         {t(`services.${serviceKey}.title`)}
       </h3>

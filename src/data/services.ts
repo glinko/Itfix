@@ -23,7 +23,7 @@ export const services: Service[] = [
       'Services.services.computer-repair.features.3',
     ],
     priceRange: '$75 - $250',
-    icon: '🖥️',
+    icon: '/icons/computer-repair.png',
   },
   {
     id: 'windows-reinstall',
@@ -38,7 +38,7 @@ export const services: Service[] = [
       'Services.services.windows-reinstall.features.3',
     ],
     priceRange: '$100 - $200',
-    icon: '🪟',
+    icon: '/icons/windows-reinstall.png',
   },
   {
     id: 'virus-removal',
@@ -53,7 +53,7 @@ export const services: Service[] = [
       'Services.services.virus-removal.features.3',
     ],
     priceRange: '$80 - $200',
-    icon: '🛡️',
+    icon: '/icons/virus-removal.png',
   },
   {
     id: 'wifi-setup',
@@ -68,7 +68,7 @@ export const services: Service[] = [
       'Services.services.wifi-setup.features.3',
     ],
     priceRange: '$100 - $300',
-    icon: '📶',
+    icon: '/icons/wifi-setup.png',
   },
   {
     id: 'networking',
@@ -83,7 +83,7 @@ export const services: Service[] = [
       'Services.services.networking.features.3',
     ],
     priceRange: '$150 - $500',
-    icon: '🌐',
+    icon: '/icons/networking.png',
   },
   {
     id: 'security-cameras',
@@ -98,7 +98,7 @@ export const services: Service[] = [
       'Services.services.security-cameras.features.3',
     ],
     priceRange: '$200 - $1,500',
-    icon: '📹',
+    icon: '/icons/security-cameras.png',
   },
   {
     id: 'smart-home',
@@ -113,7 +113,7 @@ export const services: Service[] = [
       'Services.services.smart-home.features.3',
     ],
     priceRange: '$150 - $800',
-    icon: '🏠',
+    icon: '/icons/smart-home.png',
   },
   {
     id: 'ethernet',
@@ -128,7 +128,7 @@ export const services: Service[] = [
       'Services.services.ethernet.features.3',
     ],
     priceRange: '$75 - $400',
-    icon: '🔌',
+    icon: '/icons/ethernet.png',
   },
   {
     id: 'server-setup',
@@ -143,7 +143,7 @@ export const services: Service[] = [
       'Services.services.server-setup.features.3',
     ],
     priceRange: '$200 - $600',
-    icon: '🖧',
+    icon: '/icons/server-setup.png',
   },
   {
     id: 'it-consulting',
@@ -158,7 +158,7 @@ export const services: Service[] = [
       'Services.services.it-consulting.features.3',
     ],
     priceRange: '$100 - $300/hr',
-    icon: '💡',
+    icon: '/icons/it-consulting.png',
   },
 ];
 
