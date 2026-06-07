@@ -14,6 +14,7 @@ const services = [
   { key: 'ethernet', icon: '/icons/ethernet.png' },
   { key: 'serverSetup', icon: '/icons/server-setup.png' },
   { key: 'itConsulting', icon: '/icons/it-consulting.png' },
+  { key: 'aiAgentsSetup', icon: '/icons/smart-home.png' },
 ];
 
 export default function ServicesClient() {

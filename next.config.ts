@@ -1,21 +1,12 @@
 import type { NextConfig } from 'next';
 import createNextIntlPlugin from 'next-intl/plugin';
-import { withSentryConfig } from '@sentry/nextjs';
-
-const withNextIntl = createNextIntlPlugin('./i18n/request.ts');
 
 const nextConfig: NextConfig = {
-  reactStrictMode: true,
   output: 'standalone',
+  // https://nextjs.org/docs/api-app/next-config
+  // TODO: As the site grows, consider:
+  // - reactCompiler: true (when stable)
+  // - image domains, font optimization, etc.
 };
 
-export default withNextIntl(
-  withSentryConfig(nextConfig, {
-    org: process.env.SENTRY_ORG || 'itfix',
-    project: process.env.SENTRY_PROJECT || 'itfix-web',
-    silent: true,
-    sourcemaps: {
-      disable: true,
-    },
-  })
-);
+export default createNextIntlPlugin()(nextConfig);

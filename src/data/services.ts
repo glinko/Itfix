@@ -160,6 +160,21 @@ export const services: Service[] = [
     priceRange: '$100 - $300/hr',
     icon: '/icons/it-consulting.png',
   },
+  {
+    id: 'ai-agents-setup',
+    key: 'aiAgentsSetup',
+    titleKey: 'Services.services.ai-agents-setup.name',
+    descriptionKey: 'Services.services.ai-agents-setup.description',
+    fullDescriptionKey: 'Services.services.ai-agents-setup.fullDescription',
+    features: [
+      'Services.services.ai-agents-setup.features.0',
+      'Services.services.ai-agents-setup.features.1',
+      'Services.services.ai-agents-setup.features.2',
+      'Services.services.ai-agents-setup.features.3',
+    ],
+    priceRange: '$150 - $800',
+    icon: '/icons/smart-home.png',
+  },
 ];
 
 export function getServiceById(id: string) {

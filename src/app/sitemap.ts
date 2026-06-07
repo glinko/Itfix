@@ -1,15 +1,8 @@
-import type { MetadataRoute } from 'next';
-
-const baseUrl = 'https://itfix.local';
-
-export default function sitemap(): MetadataRoute.Sitemap {
-  const pages = ['/', '/about', '/contact', '/services'];
-  const locales = ['en', 'ru'];
-
-  return locales.flatMap((locale) =>
-    pages.map((path) => ({
-      url: `${baseUrl}/${locale}${path}`,
+export default async function sitemap() {
+  return [
+    {
+      url: 'https://itfix.systems',
       lastModified: new Date(),
-    }))
-  );
+    },
+  ];
 }

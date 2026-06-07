@@ -38,7 +38,7 @@ const servicesSchema = {
   '@type': 'ItemList',
   name: 'ITfix Services',
   description: 'Comprehensive IT services offered by ITfix in Boca Raton, South Florida.',
-  numberOfItems: 10,
+  numberOfItems: 11,
   itemListElement: [
     {
       '@type': 'Service',
@@ -127,6 +127,15 @@ const servicesSchema = {
       name: 'IT Consulting',
       description: 'Strategic IT planning and technology audits.',
       serviceType: 'IT Consulting',
+      provider: { '@type': 'LocalBusiness', name: 'ITfix' },
+      areaServed: { '@type': 'State', name: 'Florida' },
+    },
+    {
+      '@type': 'Service',
+      position: 11,
+      name: 'AI Agents Setup',
+      description: 'Custom AI agent automation for remote workers and small offices.',
+      serviceType: 'AI Automation',
       provider: { '@type': 'LocalBusiness', name: 'ITfix' },
       areaServed: { '@type': 'State', name: 'Florida' },
     },

@@ -67,6 +67,10 @@
       "itConsulting": {
         "title": "IT Consulting",
         "description": "Expert advice on technology strategy and planning"
+      },
+      "aiAgentsSetup": {
+        "title": "AI Agents Setup",
+        "description": "Custom AI automation to handle repetitive tasks and workflows"
       }
     },
     "whyChooseUs": {
@@ -301,6 +305,17 @@
           "Cloud migration planning and hybrid infrastructure design",
           "Vendor evaluation, procurement guidance, and cost optimization analysis",
           "Ongoing advisory support and quarterly technology reviews"
+        ]
+      },
+      "ai-agents-setup": {
+        "name": "AI Agents Setup",
+        "description": "Custom AI agent automation for remote workers and small offices. Automate emails, reports, scheduling, and daily tasks.",
+        "fullDescription": "We design, deploy, and maintain AI agents tailored to your workflow. Whether you work from home or run a small office, our AI automation solutions handle repetitive tasks so you can focus on what matters. We set up private, secure AI systems that integrate with your existing tools — email, calendar, file management, CRM, and more. No cloud dependency required: we can run everything locally on your hardware for maximum privacy and control. Includes initial setup, training, documentation, and 30 days of post-launch support.",
+        "features": [
+          "Workflow audit and automation planning",
+          "Private AI agent deployment (local or cloud)",
+          "Integration with email, calendar, files, and CRM",
+          "Training and 30-day post-launch support"
         ]
       }
     }
